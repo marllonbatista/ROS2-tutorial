@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='marllon',
-    maintainer_email='marllon@todo.todo',
+    maintainer_email='marllonbatista.12@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
