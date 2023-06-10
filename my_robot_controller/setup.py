@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "first_node=my_robot_controller.first_node:main"
+            "first_node=my_robot_controller.first_node:main",
+            "second_node=my_robot_controller.second_node:main"
         ],
     },
 )

@@ -26,7 +26,7 @@ class controller_vel(Node):
             msg.linear.y=-3.0
             self.counter=0
         self.cmd_vel_pub.publish(msg)
-        self.get_logger().info(str(msg))
+        
 def main (args=None):
     rclpy.init(args=args)#inicia a comunicação
     node=controller_vel()
