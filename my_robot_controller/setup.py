@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "first_node=my_robot_controller.first_node:main",
-            "second_node=my_robot_controller.second_node:main"
+            "second_node=my_robot_controller.second_node:main",
+            "third_node=my_robot_controller.third_node:main"
         ],
     },
 )
